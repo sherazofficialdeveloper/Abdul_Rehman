@@ -63,7 +63,7 @@ const About = () => {
             </div>
 
             {/* Download CV Button */}
-            <div style={{ marginTop: '30px' }}>
+            <div style={{ marginTop: '10px' }}>
               <button 
                 onClick={handleDownloadCV}
                 className="btn btn-primary"

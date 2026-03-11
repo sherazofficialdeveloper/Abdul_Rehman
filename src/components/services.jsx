@@ -47,7 +47,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="section services-section">
+    <section id="services" className="section services-section py-10">
       <div className="container-custom">
         <h2>
           My Services
