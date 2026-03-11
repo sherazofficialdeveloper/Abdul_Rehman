@@ -3,76 +3,67 @@ import React from 'react';
 const Projects = () => {
   const projectsData = [
     {
-      image: '/image1.jpg',
-      title: 'Nexus Financial Platform',
-      description: 'Comprehensive financial management dashboard with real-time analytics, investment tracking, and automated reporting for a financial services client.',
-      technologies: ['Website Development', 'App Development', 'React', 'Node.js', 'PostgreSQL']
+      image: '/hamme.png',
+      title: 'Hamme.com.pk',
+      description: 'E-commerce platform for local products with shopping cart and payment integration.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'AWS', 'JavaScript', 'Ajax'],
+      liveLink: 'https://www.hamme.com.pk/'
     },
     {
-      image: '/image2.jpg',
-      title: 'UrbanStyle Fashion Store',
-      description: 'Complete e-commerce solution for a fashion retailer with advanced product filtering, size recommendations, and AR try-on features.',
-      technologies: ['E-Commerce', 'Website Development', 'Shopify', 'React', 'Payment Integration']
+      image: '/textreturn.png',
+      title: 'TaxReturnFilers.com',
+      description: 'Professional tax filing service website with clean UI and user-friendly forms.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'AWS', 'Redux', 'Stripe'],
+      liveLink: 'https://taxreturnfilers.com/'
     },
     {
-      image: '/image3.jpg',
-      title: 'HealthTrack Mobile App',
-      description: 'Health monitoring application with medication reminders, symptom tracking, and doctor appointment scheduling for healthcare providers.',
-      technologies: ['App Development', 'React Native', 'Healthcare', 'AWS', 'Push Notifications']
+      image: '/WanFinancials.png',
+      title: 'WanFinancials.com',
+      description: 'Financial consulting firm website with professional layout and service showcases.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'AWS', 'Redux', 'Stripe'],
+      liveLink: 'https://wanfinancials.com/'
     },
     {
-      image: '/image4.jpg',
-      title: 'BrandVibe Identity Package',
-      description: 'Complete brand identity development including logo design, brand guidelines, marketing collateral, and social media templates for a tech startup.',
-      technologies: ['Graphic Design', 'Branding', 'Adobe Creative Suite', 'Figma', 'Marketing Materials']
+      image: '/ENMA.png',
+      title: 'ENMA-BH.com',
+      description: 'Business consultancy website with multilingual support and corporate design.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'AWS', 'Redux', 'Stripe'],
+      liveLink: 'https://enma-bh.com/'
     },
     {
-      image: '/image5.jpg',
-      title: 'EduTech Learning Platform',
-      description: 'Interactive educational platform with video courses, progress tracking, and certification system for online learning institutions.',
-      technologies: ['Website Development', 'Video Editing', 'LMS', 'React', 'MongoDB']
+      image: '/haskir.png',
+      title: 'Haskir.com',
+      description: 'Service-based platform connecting customers with local service providers.',
+      technologies: ['.NET', 'SQL Server', 'Angular', 'Azure', 'next.js'],
+      liveLink: 'https://haskir.com'
     },
     {
-      image: '/image6.jpg',
-      title: 'TravelEase Booking System',
-      description: 'Complete travel booking platform with hotel reservations, flight booking, itinerary planning, and real-time availability updates.',
-      technologies: ['Website Development', 'E-Commerce', 'Payment Gateway', 'API Integration', 'MongoDB']
+      image: '/InstantHomeOffers.png',
+      title: 'InstantHomeOffers.co.uk',
+      description: 'UK property investment website with property listings and investment calculators.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'AWS', 'Redux', 'Stripe'],
+      liveLink: 'https://instanthomeoffers.co.uk/'
     },
     {
-      image: '/image7.jpg',
-      title: 'FitPro Mobile Application',
-      description: 'Comprehensive fitness tracking app with workout plans, nutrition logging, progress analytics, and social sharing features for health enthusiasts.',
-      technologies: ['App Development', 'Digital Marketing', 'Flutter', 'Firebase', 'Social Integration']
+      image: '/GallifordTry.png',
+      title: 'GallifordTry.co.uk',
+      description: 'Construction company website with project portfolio and company information.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'AWS', 'Redux', 'Stripe'],
+      liveLink: 'https://www.gallifordtry.co.uk/'
     },
     {
-      image: '/image8.jpg',
-      title: 'PropertyView Real Estate',
-      description: 'Advanced property listing platform with virtual tours, mortgage calculators, agent matching, and neighborhood insights for real estate agencies.',
-      technologies: ['Website Development', 'Graphic Design', 'VR Integration', 'Vue.js', 'Google Maps API']
+      image: '/StarSecurityUAE.png',
+      title: 'StarSecurityUAE.com',
+      description: 'Security services website for UAE market with service details and contact forms.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'AWS', 'Redux', 'Stripe'],
+      liveLink: 'https://starsecurityuae.com/'
     },
     {
-      image: '/image9.jpg',
-      title: 'RestoManage POS System',
-      description: 'Complete restaurant management solution with table reservations, inventory tracking, staff management, and customer loyalty programs.',
-      technologies: ['App Development', 'Website Development', 'React Native', 'Node.js', 'Inventory Management']
-    },
-    {
-      image: '/image10.jpg',
-      title: 'Corporate Brand Video Series',
-      description: 'Complete video production package including company profile videos, product demonstrations, and social media advertisements for B2B clients.',
-      technologies: ['Video Editing', 'Digital Marketing', 'Premiere Pro', 'After Effects', 'Motion Graphics']
-    },
-    {
-      image: '/image11.jpg',
-      title: 'LuxeBeauty E-Commerce Redesign',
-      description: 'Complete website redesign with improved user experience, faster load times, enhanced product visualization, and integrated marketing tools.',
-      technologies: ['E-Commerce', 'Website Development', 'UI/UX Design', 'Performance Optimization', 'Analytics']
-    },
-    {
-      image: '/image12.jpg',
-      title: 'GrowthBoost Marketing Campaign',
-      description: 'Comprehensive digital marketing campaign including SEO optimization, social media management, PPC advertising, and conversion rate optimization.',
-      technologies: ['Digital Marketing', 'SEO', 'Social Media', 'Google Ads', 'Analytics']
+      image: '/Sofodynamix.png',
+      title: 'Sofodynamix.com',
+      description: 'Software development company website showcasing services and technologies.',
+      technologies: ['Next.js', 'Express.js', 'PostgreSQL', 'Socket.io', 'Mapbox'],
+      liveLink: 'https://sofodynamix.com/'
     }
   ];
 
@@ -114,6 +105,45 @@ const Projects = () => {
                       {tech}
                     </span>
                   ))}
+                </div>
+                <div style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  width: '100%',
+                  marginTop: '20px'
+                }}>
+                  <a 
+                    href={project.liveLink} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="btn btn-primary"
+                    style={{
+                      display: 'inline-block',
+                      padding: '10px 24px',
+                      background: 'linear-gradient(90deg, #00FFF0, #FF00D4)',
+                      color: '#000000',
+                      textDecoration: 'none',
+                      borderRadius: '30px',
+                      fontSize: '0.9rem',
+                      fontWeight: '600',
+                      border: 'none',
+                      cursor: 'pointer',
+                      transition: 'all 0.3s ease',
+                      boxShadow: '0 5px 15px rgba(0, 0, 0, 0.2)',
+                      textAlign: 'center',
+                      minWidth: '140px'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.target.style.transform = 'translateY(-3px)';
+                      e.target.style.boxShadow = '0 10px 20px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 255, 240, 0.6)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.target.style.transform = 'translateY(0)';
+                      e.target.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.2)';
+                    }}
+                  >
+                    Live Website →
+                  </a>
                 </div>
               </div>
             </div>
