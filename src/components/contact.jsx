@@ -272,14 +272,14 @@ const Contact = () => {
                   <strong>Business Hours:</strong> Mon-Fri, 9AM-6PM PKT
                 </p>
                 <div className="contact-social">
-                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                    <i className="fab fa-github"></i>
+                  <a href="https://www.facebook.com/share/1Cc4De3zhS/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i className="fab fa-facebook"></i>
                   </a>
-                  <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <a href="https://www.linkedin.com/in/abdul-rahman-7637b9371?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                     <i className="fab fa-linkedin-in"></i>
                   </a>
-                  <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                    <i className="fab fa-twitter"></i>
+                  <a href="https://www.instagram.com/rajputofficial78?igsh=MTU0aWhvczF3MWJmMg==" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </div>
               </div>

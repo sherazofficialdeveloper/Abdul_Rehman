@@ -38,7 +38,7 @@ const Hero = () => {
             <div className="hero-image">
               <div className="hero-image-inner">
                 {/* Profile image with correct path and alt text */}
-                <img src="/a rehman.jpeg" alt="Abdul Rahman - Front-End Developer" />
+                <img src="/sheraz ali png" alt="" />
               </div>
             </div>
           </div>

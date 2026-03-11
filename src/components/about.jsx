@@ -91,7 +91,7 @@ const About = () => {
           <div className="profile-image-container">
             <div className="profile-image">
               <div className="profile-image-inner">
-                <img src="/roni.jpeg" alt="Abdul Rahman - Front-End Developer" />
+                <img src="/sheraz ali png" alt="" />
               </div>
               <div className="profile-shine"></div>
             </div>
