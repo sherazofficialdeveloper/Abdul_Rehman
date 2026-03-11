@@ -16,16 +16,13 @@ const Footer = () => {
                 with modern technologies and best practices.
               </p>
               <div className="footer-social">
-                <a href="https://github.com/yourusername" className="social-icon-footer" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                  <i className="fab fa-github"></i>
-                </a>
-                <a href="https://linkedin.com/in/yourusername" className="social-icon-footer" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/abdul-rahman-7637b9371?utm_source=share_via&utm_content=profile&utm_medium=member_android" className="social-icon-footer" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
-                <a href="https://twitter.com/yourusername" className="social-icon-footer" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                  <i className="fab fa-twitter"></i>
+                <a href="https://www.facebook.com/share/1Cc4De3zhS/" className="social-icon-footer" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                  <i className="fab fa-facebook"></i>
                 </a>
-                <a href="https://instagram.com/yourusername" className="social-icon-footer" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <a href="https://www.instagram.com/rajputofficial78?igsh=MTU0aWhvczF3MWJmMg==" className="social-icon-footer" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a href="https://wa.me/923317451076" className="social-icon-footer" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
